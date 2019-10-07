@@ -12,9 +12,9 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # training set
-train = pd.read_csv('insert_train_csv_here')
+train = pd.read_csv('train.csv')
 # test set
-test = pd.read_csv('insert_test_csv_here')
+test = pd.read_csv('test.csv')
 
 """ 
 Preliminary Data Review
